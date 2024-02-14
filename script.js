@@ -79,7 +79,7 @@ setInterval(createFlower, 1000);
 const $section =document.querySelector('section')
 $section.addEventListener('click',() =>{
     $section.remove()
-   const audio = new window.Audio('/noche.mp3')
+   const audio = new window.Audio('flores-amarillas/noche.mp3')
     audio.volume =0.5
     audio.play() 
 })
